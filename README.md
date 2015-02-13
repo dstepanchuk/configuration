@@ -13,7 +13,11 @@ START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/dac
 ```
 
 ### TODO
-update vagrant to share user dir, create boxstarter package and store in boxen user manifest and add that dir as a boxstarter repo
+Setup VS2012 packages via setup script(s)
+- GitEx for Visual Studio
+- Git Diff Margin for VS
+- Visual Studio Tools for Git
+- Markdown editor?
 
 
 review these chocolatey packages for ideas
