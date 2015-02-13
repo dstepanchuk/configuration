@@ -1,6 +1,6 @@
 setup-windows
 =============
-This repo shamelessly copied from https://github.com/drewburlingame/setup-windows
+This repo ~~shamelessly copied from~~ *inspired by* https://github.com/drewburlingame/setup-windows
 
 ### scripts to setup a base windows image
 
@@ -14,14 +14,11 @@ START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/dac
 
 ### TODO
 Setup VS2012 packages via setup script(s)
-- GitEx for Visual Studio
-- Git Diff Margin for VS
-- Visual Studio Tools for Git
-- Markdown editor?
+- [Git Diff Margin](https://visualstudiogallery.msdn.microsoft.com/cf49cf30-2ca6-4ea0-b7cc-6a8e0dadc1a8)
+- [Git Source Control Provider](https://visualstudiogallery.msdn.microsoft.com/63a7e40d-4d71-4fbb-a23b-d262124b8f4c)
+- [Git Extensions](https://visualstudiogallery.msdn.microsoft.com/8f594baa-e44e-4114-8381-e175ace0fe97)
+- [Visual Studio Tools for Git](https://visualstudiogallery.msdn.microsoft.com/abafc7d6-dcaa-40f4-8a5e-d6724bdb980c)
+- [VsWeb Essentials](http://vswebessentials.com/changelog)
+- [VsCommands](https://visualstudiogallery.msdn.microsoft.com/a83505c6-77b3-44a6-b53b-73d77cba84c8)
+- [NuGet Package Manager](https://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c)
 
-
-review these chocolatey packages for ideas
-http://chocolatey.org/packages/EthanBrown.DevTools.Web
-http://chocolatey.org/packages/jivkok.dev1
-http://chocolatey.org/packages/jivkok.Shell1
-http://chocolatey.org/packages?q=boxstarter
