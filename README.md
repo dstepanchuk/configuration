@@ -1,4 +1,4 @@
-setup-windows
+windows-setup
 =============
 This repo ~~shamelessly copied from~~ *inspired by* https://github.com/drewburlingame/setup-windows
 
