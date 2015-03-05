@@ -13,9 +13,6 @@ cinst powershell4
 cinst conemu
 cinst curl
 cinst ie11
-cinst markdownpad2
-cinst nugetpackageexplorer
-cinst notepadplusplus.install
 cinst sysinternals
 cinst sumatrapdf
 cinst windirstat
@@ -23,8 +20,8 @@ cinst wireshark
 
 #-- dev tools
 cinst gitextensions
-cinst p4merge
 cinst dotpeek
+cinst markdownpad2
 cinst fiddler4
 cinst linqpad4
 cinst ilmerge
@@ -33,7 +30,7 @@ cinst nugetpackageexplorer
 cinst sublimetext3.app
 cinst windbg
 
-Install-ChocolateyPinnedTaskBarItem "$env:programfiles\ConEmu\ConEmu64.exe"
+#Install-ChocolateyPinnedTaskBarItem "$env:programfiles\ConEmu\ConEmu64.exe"
 Install-ChocolateyPinnedTaskBarItem "C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\devenv.exe"
 
 #mklink /D %USERPROFILE%\.bash_profile c:\hosthome\src\dotfiles\win-vm\.bash_profile
