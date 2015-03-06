@@ -33,9 +33,9 @@ cinst windbg
 #Install-ChocolateyPinnedTaskBarItem "$env:programfiles\ConEmu\ConEmu64.exe"
 Install-ChocolateyPinnedTaskBarItem "C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\devenv.exe"
 
-#mklink /D %USERPROFILE%\.bash_profile c:\hosthome\src\dotfiles\win-vm\.bash_profile
-#mklink /D %USERPROFILE%\.gitconfig c:\hosthome\src\dotfiles\win-vm\.gitconfig
-#mklink /D %USERPROFILE%\aliases.bat c:\hosthome\src\dotfiles\win-vm\aliases.bat
+mklink /D %USERPROFILE%\.bashrc c:\hosthome\src\configuration\windows\.bashrc
+mklink /D %USERPROFILE%\.gitconfig c:\hosthome\src\configuration\windows\.gitconfig
+#mklink /D %USERPROFILE%\aliases.bat c:\hosthome\src\configuration\windows\aliases.bat
 
 #npp - install plugins
 #log2console - add udp receiver
