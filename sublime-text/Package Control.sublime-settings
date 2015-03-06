@@ -1,0 +1,17 @@
+{
+        "in_process_packages":
+        [
+        ],
+        "install_prereleases":
+        {
+                "IsPresent": false
+        },
+        "installed_packages":
+        [
+                "Dayle Rees Color Schemes",
+                "Git",
+                "Indent XML",
+                "Package Control",
+                "Theme - Soda"
+        ]
+}
