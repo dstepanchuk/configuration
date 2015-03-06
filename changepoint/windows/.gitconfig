@@ -11,7 +11,7 @@
         editor = \"C:/Program Files (x86)/GitExtensions/GitExtensions.exe\" fileeditor
         autocrlf = True
 [user]
-        name = Matthew Potter
+        name = Matthew McCallum
         email = matthew.potter@changepoint.com
 [push]
         default = simple
