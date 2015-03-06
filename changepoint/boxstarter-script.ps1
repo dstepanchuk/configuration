@@ -30,15 +30,8 @@ cinst nugetpackageexplorer
 cinst sublimetext3.app
 cinst windbg
 
-#Install-ChocolateyPinnedTaskBarItem "$env:programfiles\ConEmu\ConEmu64.exe"
+
+#-- task bar items
+Install-ChocolateyPinnedTaskBarItem "$env:programfiles\ConEmu\ConEmu64.exe"
 Install-ChocolateyPinnedTaskBarItem "C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\devenv.exe"
 
-mklink /D %USERPROFILE%\.bashrc c:\hosthome\src\configuration\windows\.bashrc
-mklink /D %USERPROFILE%\.gitconfig c:\hosthome\src\configuration\windows\.gitconfig
-#mklink /D %USERPROFILE%\aliases.bat c:\hosthome\src\configuration\windows\aliases.bat
-
-#npp - install plugins
-#log2console - add udp receiver
-#gitex - configure commit window
-#conemu - configure
-#vpn - install/configure cisco vpn
