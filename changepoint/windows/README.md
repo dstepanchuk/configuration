@@ -1,17 +1,8 @@
-configuration
-=============
-This repo ~~shamelessly copied from~~ *inspired by* https://github.com/drewburlingame/setup-windows
+windows configuration
+=====================
+Files in this folder are specific to the Windows VM Dev PPM image.
 
-### scripts to setup a base windows image
-
-these scripts use http://boxstarter.org to install chocolatey packages and modify settings on the machine
-
-Run the following from a cmd prompt to install run the changepoint setup script for my dev machine:
-```
-cmd
-START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/dachew/configuration/master/changepoint/setup.ps1
-```
-
+# Tips
 ## Sublime Text Packages
 ### Installation
 https://packagecontrol.io/
