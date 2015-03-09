@@ -1,10 +1,10 @@
-Sublime Text Packages
-=====================
-## Installation
-https://packagecontrol.io/
+Changepoint Configuration
+=========================
+This configuration area is meant to store any machine-specific configurations for Changepoint.  The following structure is observed:
 
-## Helpful Packages:
-- [Indent XML](https://packagecontrol.io/packages/Indent%20XML)
-- [Dayle Rees Color Schemes](https://packagecontrol.io/packages/Dayle%20Rees%20Color%20Schemes)
-- [Git](https://packagecontrol.io/packages/Git)
-- [Theme - Soda](https://packagecontrol.io/packages/Theme%20-%20Soda)
+```
++- configuration
+  +- changepoint
+    +- macos (any MacOS specific configuration options)
+    +- windows (any Windows VM specific configuration options, related to the dev PPM image)
+```
