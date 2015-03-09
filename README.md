@@ -1,9 +1,8 @@
-windows-setup
+configuration
 =============
 This repo ~~shamelessly copied from~~ *inspired by* https://github.com/drewburlingame/setup-windows
 
 ### scripts to setup a base windows image
-
 
 these scripts use http://boxstarter.org to install chocolatey packages and modify settings on the machine
 
@@ -11,6 +10,16 @@ Run the following from a cmd prompt to install run the changepoint setup script 
 ```cmd
 START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/dachew/setup-windows/master/changepoint/setup
 ```
+
+## Sublime Text Packages
+### Installation
+https://packagecontrol.io/
+
+## Helpful Packages:
+- [Indent XML](https://packagecontrol.io/packages/Indent%20XML)
+- [Dayle Rees Color Schemes](https://packagecontrol.io/packages/Dayle%20Rees%20Color%20Schemes)
+- [Git](https://packagecontrol.io/packages/Git)
+- [Theme - Soda](https://packagecontrol.io/packages/Theme%20-%20Soda)
 
 ### TODO
 Setup VS2012 packages via setup script(s)
