@@ -46,7 +46,7 @@ Install-ChocolateyPinnedTaskBarItem "C:\Program Files (x86)\Microsoft Visual Stu
 
 #-- Install sublime text packages and user settings
 Copy-Item "c:\hosthome\src\configuration\sublime-text\Package Control.sublime-settings" "$Env:UserProfile\AppData\Roaming\Sublime Text 3\Packages\User\Package Control.sublime-settings"
-Copy-Item "c:\hosthome\src\configuration\sublime-text\User-Preferences.sublime-settings" "$Env:UserProfile\AppData\Roaming\Sublime Text 3\Packages\User\Preferences.sublime-settings"
+Copy-Item "c:\hosthome\src\configuration\sublime-text\Preferences.sublime-settings" "$Env:UserProfile\AppData\Roaming\Sublime Text 3\Packages\User\Preferences.sublime-settings"
 
 #-- Install configuration files
 Copy-Item c:\hosthome\src\configuration\changepoint\windows\.bashrc $Env:UserProfile\.bashrc
