@@ -2,7 +2,12 @@ windows configuration
 =====================
 Files in this folder are specific to the Windows VM Dev PPM image.
 
+# [setup.ps1](setup.ps1)
+This Powershell script file starts the main vm customization process.  It's responsible for configuration options that aren't specific to [Boxstarter](http://boxstarter.org) such as configuring sublime text (after it is installed by [Chocolatey](http://chocolatey.org) and configuring up the bash prompt in Windows.  It also contains all the [cinst](https://github.com/chocolatey/choco/wiki/CommandsInstall) steps and packages.
+
 # Tips
+## The Dev PPM vagrant file has a hidden hook for launching the wininit.cmd file from my personal files folder.  That file points at the [setup.ps1](setup.ps1) file in this repo, which contains all my user configurations.  Boxstarter is part of the default VM image.
+
 ## Sublime Text Packages
 ### Installation
 https://packagecontrol.io/
