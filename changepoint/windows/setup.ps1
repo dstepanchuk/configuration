@@ -14,29 +14,29 @@ Disable-UAC
 Set-TaskbarOptions -Size Small
 
 #-- system
-cinst powershell4
+cinst -y powershell4
 
 #-- utilities
 #7zip is installed on the base image
-cinst conemu
-cinst curl
-cinst ie11
-cinst sysinternals
-cinst sumatrapdf
-cinst windirstat
-cinst wireshark
+cinst -y conemu
+cinst -y curl
+cinst -y ie11
+cinst -y sysinternals
+cinst -y sumatrapdf
+cinst -y windirstat
+cinst -y wireshark
 
 #-- dev tools
-cinst gitextensions
-cinst dotpeek
-cinst markdownpad2
-cinst fiddler4
-cinst linqpad4
-cinst ilmerge
-cinst nuget.commandline
-cinst nugetpackageexplorer
-cinst sublimetext3.app
-cinst windbg
+cinst -y gitextensions
+cinst -y dotpeek
+cinst -y markdownpad2
+cinst -y fiddler4
+cinst -y linqpad4
+cinst -y ilmerge
+cinst -y nuget.commandline
+cinst -y nugetpackageexplorer
+cinst -y sublimetext3.app
+cinst -y windbg
 
 
 #-- task bar items
