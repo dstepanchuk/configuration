@@ -1,0 +1,26 @@
+{
+    "GitSccProvider": {
+        "FileName": "GitSccProvider.vsix",
+        "DownloadUrl": "http://visualstudiogallery.msdn.microsoft.com/63a7e40d-4d71-4fbb-a23b-d262124b8f4c/file/29105/46/GitSccProvider.vsix"
+    },
+    "NuGet Package Manager": {
+        "FileName": "NuGet.Tools.vsix",
+        "DownloadUrl": "https://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c/file/37502/38/NuGet.Tools.vsix"
+    },
+    "Visual Studio Tools for Git": {
+        "FileName": "Microsoft.TeamFoundation.Git.Provider.msi",
+        "DownloadUrl": "https://visualstudiogallery.msdn.microsoft.com/abafc7d6-dcaa-40f4-8a5e-d6724bdb980c/file/93137/8/Microsoft.TeamFoundation.Git.Provider.msi"
+    },
+    "VsCommands": {
+        "FileName": "SquaredInfinity.VSCommands.VS11.vsix",
+        "DownloadUrl": "https://visualstudiogallery.msdn.microsoft.com/a83505c6-77b3-44a6-b53b-73d77cba84c8/file/74740/40/SquaredInfinity.VSCommands.VS11.vsix"
+    },
+    "WebEssentials": {
+        "FileName": "WebEssentials2012.vsix",
+        "DownloadUrl": "http://visualstudiogallery.msdn.microsoft.com/07d54d12-7133-4e15-becb-6f451ea3bea6/file/79465/42/WebEssentials2012.vsix"
+    },
+    "YamlDotNetEditor": {
+        "FileName": "YamlDotNetEditor.vsix",
+        "DownloadUrl": "https://visualstudiogallery.msdn.microsoft.com/34423c06-f756-4721-8394-bc3d23b91ca7/file/101669/5/YamlDotNetEditor.vsix"
+    }
+}
