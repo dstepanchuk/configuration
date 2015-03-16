@@ -8,7 +8,7 @@
 [difftool "kdiff3"]
         path = C:/Program Files (x86)/KDiff3/kdiff3.exe
 [core]
-        editor = \"C:/Program Files (x86)/GitExtensions/GitExtensions.exe\" fileeditor
+        editor = vim
         autocrlf = True
 [user]
         name = Matthew McCallum
