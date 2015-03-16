@@ -19,6 +19,7 @@
         undo = reset --hard
         logv = log --oneline --decorate --graph
         size = !git bundle create repo.size --all && du -sh repo.size && rm -f repo.size
+        fb = !sh -c 'git filter-branch --subdirectory-filter $1 --tag-name-filter cat --prune-empty -- --all' -
 [color "ui"]
         auto = true
 [difftool]
